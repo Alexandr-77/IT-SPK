@@ -1,0 +1,59 @@
+
+ :root {
+   --color-w: #FFFFFF; 
+   --color-bz: #00FEFF;	
+   --color-tetle: #001E42;	
+   --color-fb: #06182F;	
+   --color-text: #252D37;	
+   --color-txt-light: #A5AAAF;	
+   --color-light-c: #ECECEC;	
+}
+
+/* ======= Глобальные классы ======= */
+
+.glob-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 110%;
+  color: var(--color-tetle);
+}
+.glob-sub-title {
+  font-size: 24px;
+  line-height: 130%;
+  font-weight: 700;
+  color: var(--color-tetle);
+}
+
+.glob-txt {
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--color-text);
+}
+.glob-t {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 700;
+  color: var(--color-tetle);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--color-tetle);
+  background: var(--color-bz);
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  min-width: 255px;
+  min-height: 50px;
+}
