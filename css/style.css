@@ -516,7 +516,7 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
-    color: var(--color-w); 
+    color: var(--color-text);
     padding-top: 50px;
 }
 .footer__form {
